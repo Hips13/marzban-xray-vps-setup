@@ -13,6 +13,9 @@ VLESS со своим доменом. А что еще нужно для сча�
 ```bash
 bash <(wget -qO- https://raw.githubusercontent.com/Hips13/marzban-xray-vps-setup/refs/heads/master/vps-setup.sh)
 ```
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/Hips13/marzban-xray-vps-setup/refs/heads/main/vps-setup.sh)
+```
 
 ## Плейбук
 
