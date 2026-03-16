@@ -11,7 +11,7 @@ VLESS со своим доменом. А что еще нужно для сча�
 - - Добавит этому пользователю ключ для SSH, запретив вход по паролю
 - Настроит WARP для ру-сайтов.  
 ```bash
-bash <(wget -qO- https://raw.githubusercontent.com/Akiyamov/xray-vps-setup/refs/heads/main/vps-setup.sh)
+bash <(wget -qO- https://raw.githubusercontent.com/Hips13/marzban-xray-vps-setup/refs/heads/master/vps-setup.sh)
 ```
 
 ## Плейбук
