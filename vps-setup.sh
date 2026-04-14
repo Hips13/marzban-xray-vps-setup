@@ -22,7 +22,7 @@ export VLESS_DOMAIN=$(echo $input_domain | idn)
 
 SERVER_IPS=($(hostname -I))
 
-RESOLVED_IP=$(dig +short $VLESS_DOMAIN | tail -n1)
+RESOLVED_IP=$(dig @8.8.8.8 +short $VLESS_DOMAIN | tail -n1)
 
 if [ -z "$RESOLVED_IP" ]; then
   echo "Warning: Domain has no DNS record"
